@@ -2,7 +2,7 @@
 # 作者介绍
 姓名：康世行<br/>
 邮箱：18332371417@163.com <br/>
-作者博客：https://kangshihang.blog.csdn.net   <br/>
+作者博客：https://kangshihang.blog.csdn.net/   <br/>
 作者简介：http://www.onlinecodeboy.cn/      <br/>
 # 业务描述
  以部门管理为基础业务，对第一代微服务进行快速上手练习。<br/>
