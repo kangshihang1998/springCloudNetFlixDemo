@@ -1,6 +1,6 @@
 # springCloudNetFlixDemo
 # 作者介绍
-姓名：康世行
+姓名：康世行<br/>
 邮箱：18332371417@163.com <br/>
 作者博客：https://kangshihang.blog.csdn.net   <br/>
 作者简介：http://www.onlinecodeboy.cn/      <br/>
