@@ -12,7 +12,7 @@
   提示：业务不是重点，重点是快速上手第一代微服务。      
 # 导入SQL（创建表）
  <ol>
-  <li>在本地MySQL新建 sqltest 数据库</li>
+  <li>在本地MySQL服务器上新建 sqltest 数据库</li>
   <li>把SQL目录下的sqltest导入刚才创建的数据库进行创建表</li>
  </ol>
  
