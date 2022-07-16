@@ -20,4 +20,8 @@
 ------dept-api(通用实体)<br/>
 ------dept-producer(生产者)<br/>
 ------dept-consumer(消费者)<br/>
-
+# swagger地址
+## 生产者
+http://localhost:8001/swagger-ui.html
+## 消费者
+http://localhost:9001/swagger-ui.html

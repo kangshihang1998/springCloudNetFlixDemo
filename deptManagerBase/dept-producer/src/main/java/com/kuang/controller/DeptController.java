@@ -4,6 +4,8 @@ import com.kuang.model.DeptModel;
 import com.kuang.service.DeptService;
 import com.kuang.utils.FrontResult;
 import com.kuang.utils.FrontResultEnum;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,11 +18,13 @@ import org.springframework.web.bind.annotation.*;
  **/
 @RestController
 @RequestMapping("/dept")
+@Api("部门管理-生产者")
 public class DeptController {
 
     @Autowired
     private DeptService deptService;
 
+    @ApiOperation("添加部门")
     @GetMapping("/addDept/{deptName}")
     public FrontResult addDept( @PathVariable("deptName") String deptName){
 
@@ -33,6 +37,7 @@ public class DeptController {
     }
 
     @GetMapping("/queryDept/{deptno}")
+    @ApiOperation("查询部门")
     public FrontResult queryDept( @PathVariable("deptno") Integer deptno){
         DeptModel deptModel = deptService.queryDeptById(deptno);
 

@@ -2,6 +2,8 @@ package com.kuang.consumer;
 
 
 import com.kuang.utils.FrontResult;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,6 +22,7 @@ import javax.annotation.Resource;
  **/
 @RestController
 @RequestMapping("/deptConsumer")
+@Api( "部门管理-消费者")
 public class DeptConsumer {
 
     @Autowired
@@ -29,12 +32,14 @@ public class DeptConsumer {
     private static final String REST_URL_PREFIX="http://SPRINGCLOUD-PROVIDER-DEPT";
 
     @GetMapping("/addDeptConsumer/{deptName}")
+    @ApiOperation("添加部门")
     public FrontResult addDeptConsumer( @PathVariable("deptName") String deptName){
         FrontResult forObject = restTemplate.getForObject("http://localhost:8001/dept/addDept/" + deptName, FrontResult.class);
        return  forObject;
     }
 
     @GetMapping("/queryDeptConsumer/{deptno}")
+    @ApiOperation("查询部门")
     public FrontResult queryDeptConsumer( @PathVariable("deptno") String deptno){
          FrontResult forObject = restTemplate.getForObject("http://localhost:8001/dept/queryDept/" + deptno, FrontResult.class);
         return forObject;
