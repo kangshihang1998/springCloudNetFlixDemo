@@ -1,0 +1,16 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+zuul:
+  routes:
+    mydeptProvider.serviceId: dept-provider
+    mydeptProvider.path: /mydeptProvider/**
+    mydeptconsumer.serviceId: deptconSumer
+    mydeptconsumer.path: /mydeptConsumer/**
+  ignored-services: "*" # 忽略，隐藏全部默认服务名称

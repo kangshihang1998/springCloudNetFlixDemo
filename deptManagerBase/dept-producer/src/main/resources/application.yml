@@ -15,7 +15,3 @@ spring:
       url: jdbc:mysql://127.0.0.1:3306/sqlTest?useUnicode=true&characterEncoding=utf-8
       username: root
       password: 123456
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/

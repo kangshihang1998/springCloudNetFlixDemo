@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-server#应用名称（集群下相同）
+server:
+  port: 7002
+# eureka配置
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true # 开启ip地址注册
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7003/eureka/

@@ -8,5 +8,5 @@
 以部门管理的（添加，查询）部门的基本业务为基础,快速上手第一代微服务的使用。
 # 功能模块
 ------deptManagerBase(基础业务模块)<br/>
- 
+------deptManager-ZuulAndEureka（集成网关和注册中心）<br/>
 
