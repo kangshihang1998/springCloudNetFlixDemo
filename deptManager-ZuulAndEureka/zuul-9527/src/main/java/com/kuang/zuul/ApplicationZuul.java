@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
+
+
 import springfox.documentation.swagger.web.SwaggerResource;
 import springfox.documentation.swagger.web.SwaggerResourcesProvider;
 
@@ -44,5 +46,6 @@ public class ApplicationZuul {
             swaggerResource.setSwaggerVersion(version);
             return swaggerResource;
         }
+
     }
 }
