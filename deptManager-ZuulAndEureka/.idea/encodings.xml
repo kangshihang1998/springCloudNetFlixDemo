@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dept-producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka7003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-9527/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

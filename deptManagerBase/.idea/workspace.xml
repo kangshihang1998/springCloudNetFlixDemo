@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f72d2fc2-de2c-4e9f-b364-2db755d51c9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../deptManager-ZuulAndEureka/eureka7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deptManager-ZuulAndEureka/eureka7001/src/main/java/com/kuang/eurea/EurekaServer7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deptManager-ZuulAndEureka/eureka7001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dept-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dept-producer/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\apache-maven-3.6.1\apache-maven-3.6.1\reponsitory" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\apache-maven-3.6.1\conf\settingCommont.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BvSjE6uFbOOSxIhyF9vVreeBYr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApplicationDeptConsumer">
+    <configuration name="ApplicationDept" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-detp-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.ApplicationDept" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationDeptConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-dept-consumer-8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.ApplicationDeptConsumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApplicationDept" />
+        <item itemvalue="Spring Boot.ApplicationDeptConsumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.28138527" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fa9bff52" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fa9bff52" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7fffa9c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f72d2fc2-de2c-4e9f-b364-2db755d51c9b" name="Default Changelist" comment="" />
+      <created>1657785198518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657785198518</updated>
+      <workItem from="1657785199798" duration="6439000" />
+      <workItem from="1657842797876" duration="16000" />
+      <workItem from="1657842862210" duration="3002000" />
+      <workItem from="1657853315057" duration="3448000" />
+      <workItem from="1657891254834" duration="105000" />
+      <workItem from="1657930620388" duration="1346000" />
+      <workItem from="1658026059054" duration="1028000" />
+      <workItem from="1658045600302" duration="63000" />
+    </task>
+    <task id="LOCAL-00001" summary="更新基础环境代码-康世行-2022-7-14 18:12:39">
+      <created>1657793570850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657793570850</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新项目描述的个人博客地址-康世行-2022-7-14 18:31:03">
+      <created>1657794667929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657794667929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新SQL语句-康世行-2022-7-15 21:21:12">
+      <created>1657891277639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657891277640</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加swagger地址-方便接口测试使用-康世行-2022-7-16 08:38:27">
+      <created>1657931916994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657931916994</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新基础环境代码-康世行-2022-7-14 18:12:39" />
+    <MESSAGE value="更新项目描述的个人博客地址-康世行-2022-7-14 18:31:03" />
+    <MESSAGE value="更新SQL语句-康世行-2022-7-15 21:21:12" />
+    <MESSAGE value="增加swagger地址-方便接口测试使用-康世行-2022-7-16 08:38:27" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加swagger地址-方便接口测试使用-康世行-2022-7-16 08:38:27" />
+  </component>
+</project>

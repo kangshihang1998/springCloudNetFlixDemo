@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dept-api" />
+        <module name="eureka7001" />
+        <module name="zuul-9527" />
+        <module name="consumer8002" />
+        <module name="dept-consumer" />
+        <module name="eureka7002" />
+        <module name="eureka7003" />
+        <module name="detp-producer" />
+        <module name="detp-producer (1)" />
+        <module name="dept-api (1)" />
+        <module name="dept-consumer (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="dept-api-OpenFeginClinet" target="1.8" />
+      <module name="dept-apiopenFeigClinet" target="1.8" />
+      <module name="dept-openFeignClient" target="1.8" />
+      <module name="deptManager-OpenfeignClinet" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
